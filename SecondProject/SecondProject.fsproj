@@ -51,7 +51,6 @@
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="SecondProject.fs" />
     <None Include="packages.config" />
-    <None Include="Script.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Config.yaml" />

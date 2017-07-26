@@ -1,4 +1,4 @@
-﻿namespace RiderRepro.AssemblyInfo
+﻿namespace ConsoleApplication.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("RiderRepro")>]
+[<assembly: AssemblyTitle("ConsoleApplication")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("RiderRepro")>]
+[<assembly: AssemblyProduct("ConsoleApplication")>]
 [<assembly: AssemblyCopyright("Copyright ©  2017")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("A2C2F575-4329-43C1-8F5C-2F14B6AAC638")>]
+[<assembly: Guid("0F1C4E45-2FDD-4205-AD8B-006224A69F1D")>]
 
 // Version information for an assembly consists of the following four values:
 // 

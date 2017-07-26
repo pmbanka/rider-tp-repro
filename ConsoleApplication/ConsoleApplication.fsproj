@@ -5,13 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A2C2F575-4329-43C1-8F5C-2F14B6AAC638}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>RiderRepro</RootNamespace>
-    <AssemblyName>RiderRepro</AssemblyName>
+    <ProjectGuid>{0F1C4E45-2FDD-4205-AD8B-006224A69F1D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApplication</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Name>RiderRepro</Name>
+    <DocumentationFile>bin\$(Configuration)\$(AssemblyName).xml</DocumentationFile>
+    <Name>ConsoleApplication</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -49,9 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="RiderRepro.fs" />
+    <Compile Include="Program.fs" />
+    <Content Include="packages.config" />
+    <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="Script.fsx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SecondProject\SecondProject.fsproj">
